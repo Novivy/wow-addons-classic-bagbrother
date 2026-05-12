@@ -4,7 +4,7 @@
 ## Author: Jaliborc (João Cardoso)
 ## SavedVariables: BrotherBags
 ## OptionalDeps: LibStub, WoWUnit
-## Version 50.0.1
+## Version: 50.0.2
 
 LibStub.lua
 Startup.lua
