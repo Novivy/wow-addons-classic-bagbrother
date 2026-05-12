@@ -36,8 +36,9 @@ function Brother:StartupCache()
 	BrotherBags[realm] = BrotherBags[realm] or {}
 
 	self.Realm = BrotherBags[realm]
-	self.Realm[player] = self.Realm[player] or {equip = {}}
+	self.Realm[player] = self.Realm[player] or {}
 	self.Player = self.Realm[player]
+	self.Player.equip = self.Player.equip or {}
 
 	local player = self.Player
 	player.faction = UnitFactionGroup('player') == 'Alliance'
